@@ -9,7 +9,7 @@ class Digimon: public VirtualPet {
 	public: 
 		Digimon(const string&, const string&); 
 		void useSpecialAttack();
-
+		string getElement()const;
 };
 
 #endif

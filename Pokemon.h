@@ -9,7 +9,7 @@ class Pokemon : public VirtualPet {
 		int health;
 
 	protected:
-		void increaseHappiness(int amount);
+		void increaseHappiness(int amount) override;
 
 	
 	public:

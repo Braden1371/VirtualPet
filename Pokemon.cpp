@@ -26,4 +26,5 @@ void Pokemon::makeSound() const {
 
 void Pokemon::increaseHappiness(int amount) {
 	cout << "I OVERWROTE THE PROTECTED METHOD BUT CAN'T CHANGE HAPPINESS BC PRIVACY REASONS" << endl;
+	VirtualPet::increaseHappiness(amount * 2);
 }

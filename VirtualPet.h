@@ -12,7 +12,7 @@ class VirtualPet {
 
 
 	protected:
-		void increaseHappiness(int amount);
+		virtual void increaseHappiness(int amount);
 		void decreaseHappiness(int amount);
 		void increaseHunger(int amount);
 		void decreaseHunger(int amount);

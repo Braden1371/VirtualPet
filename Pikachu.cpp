@@ -8,5 +8,5 @@ Pikachu::Pikachu(const string& pikaName, const string& pikaSpecies, int power): 
 void Pikachu::useElectricShock(Pokemon& target){
 	target.takeDamage(electricPower);
 	cout << "Pikachu used Electric Shock!" << endl;
-	cout << "Foe took " << electricPower << " damage!" << endl;
+	cout << target.getName() << " took " << electricPower << " damage!" << endl;
 }
